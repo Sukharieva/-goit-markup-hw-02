@@ -1,1 +1,62 @@
-/*  kakoito clas  */
+:root {
+    --title-color: #212121;
+    --text-color: #757575;
+    --secondary-color: #ffffff;
+    --accent-color: #4D5AE5;
+    --heder-logo: #000000;
+    --primary-background-color: #ffffff;
+    --secondary-bckround-color: #2f303a;
+    --team-background-color: #f5f4fa;
+    --footer-link-color: #188ce8;
+    --progect-btn-bg-color: #f5f4fa;
+}
+body {
+font-family: "Roboto", sans-serif; 
+font-size: 20px;
+letter-spacing: 0.03em;
+color  var(--text-color);
+background-color: var(--primary-background-color);
+}
+
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none ;
+}
+.btn {
+cursor: pointer;
+border: none;
+font-family: inherit;
+}
+
+.logo {
+font-family: "Raleway";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        color: #4D5AE5;
+}
+.heder-logo{
+font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #2E2F42;
+}
+.footer {
+    background: #2E2F42;
+}
+.footer-logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33px;
+        color: #F4F4FD;
+}
+.footer-text{
+color: #E7E9FC;
+}
