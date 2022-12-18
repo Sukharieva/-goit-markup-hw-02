@@ -1,51 +1,116 @@
 :root {
-    --title-color: #212121;
-    --text-color: #757575;
-    --secondary-color: #ffffff;
-    --accent-color: #4D5AE5;
+    /*--title-color: #212121;*/
+    --text-color: #2E2F42;
+    /* --secondary-color: #ffffff;*/
+    --accent-brand: #4D5AE5;
     --heder-logo: #000000;
-    --primary-background-color: #ffffff;
-    --secondary-bckround-color: #2f303a;
+    --site-background-color: #ffffff;
+    --header-background-color: #ffffff;
+    --hero-bckround-color: #15183d;
     --team-background-color: #f5f4fa;
-    --footer-link-color: #188ce8;
     --progect-btn-bg-color: #f5f4fa;
 }
+
 body {
 font-family: "Roboto", sans-serif; 
-font-size: 20px;
-letter-spacing: 0.03em;
-color  var(--text-color);
-background-color: var(--primary-background-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color:  var(--text-color);
+background-color: var(--site-background-color);
 }
 
+/* ------HEADER-----------*/
+.heder{
+background-color: var(--header-background-color:);
+}
+
+.heder-logo
+{
+font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+.logo {
+    font-family: "Raleway";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.33;
+        color: var(--accent-brand);
+        text-transform: uppercase;  
+}
+.list {
+    list-style: none;
+}
+
+.hader-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color);
+}
 .link {
     text-decoration: none;
 }
-.list {
-    list-style: none ;
+
+.link:hover, 
+.link:focus {
+color: var(--accent-brand);;
+}
+.heder-contacts-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+     color: var(--text-color);
+}
+/*-------HERO----------*/
+.hero {
+background-color: var(--hero-bckround-color);
+color: var(--hero-bckround-color);
+}
+.hero-title {
+    font-weight: 600;
+        font-size: 56px;
+        line-height: 1.07;
+        color: #ffffff;
 }
 .btn {
-cursor: pointer;
-border: none;
-font-family: inherit;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    
+}
+.hero-btn {
+    background-color: var(--accent-brand);
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+}
+/*----------advantages+team-------- */
+.title-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--text-color);
+
 }
 
-.logo {
-font-family: "Raleway";
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.33;
-        color: #4D5AE5;
+.title-h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--text-color);
 }
-.heder-logo{
-font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    color: #2E2F42;
+.team {
+    background-color: var(--team-background-color);
 }
+
+/* --------------footer-------------*/
 .footer {
     background: #2E2F42;
 }
