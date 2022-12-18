@@ -26,14 +26,9 @@ background-color: var(--site-background-color);
 background-color: var(--header-background-color);
 }
 
-<<<<<<< HEAD
-.heder-logo {
-    font-family: "Raleway";
-=======
 .heder-logo
 {
 font-family: "Raleway";
->>>>>>> parent of 10db39c (HW2 the end)
     font-weight: 700;
     font-size: 18px;
     line-height: 1.33;
@@ -69,11 +64,7 @@ font-family: "Raleway";
 
 .link:hover, 
 .link:focus {
-<<<<<<< HEAD
-    color: var(--accent-brand);
-=======
 color: var(--accent-brand);;
->>>>>>> parent of 10db39c (HW2 the end)
 }
 .heder-contacts-link {
     font-weight: 400;
