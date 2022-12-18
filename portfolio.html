@@ -4,30 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
   </head>
-  <body>
-    <header>
-      <nav>
-        <a href="#">WebStudio</a>
-        <!--header-->
-        <ul>
-          <li><a href="/">Studio</a></li>
-          <li><a href="/">Portfolio</a></li>
-          <li><a href="/">Contacts</a></li>
+  <body class="site-body">
+    <header class="header">
+      <nav class="heder-navigation">
+        <a class="logo link" href="./index.html"> web <span class="heder-logo">studio</span> </a>
+
+        <ul class="heder-list list">
+          <li class="heder-item">
+            <a class="hader-link link" href="./index.html">Studio</a>
+          </li>
+          <li class="heder-item">
+            <a class="hader-link link" href="./index.html">Portfolio</a>
+          </li>
+          <li class="heder-item">
+            <a class="hader-link link" href="./index.html">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <ul class="heder-contacts list">
+        <li class="heder-contacts link">
+          <a class="heder-contacts-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </li>
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="heder-contacts-link link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
       </ul>
     </header>
     <main>
       <section>
-        <h1>Portfolio</h1>
+        <h1 hidden>Portfolio</h1>
         <!--filter buttons -->
         <button type="button">All</button>
         <button type="button">Web Site</button>
@@ -35,137 +51,124 @@
         <button type="button">Design</button>
         <button type="button">Marketing</button>
         <!--portfolio -->
-        <ul>
-
+        <h2 hidden>Navigation Portfolio</h2>
+        <ul class="list">
           <li>
             <a href="#">
-            <img
-              src="./images/dev1.jpg"
-              alt="Screenshots from the phone banking application"
-              width="360"
-              height="300"
-            />
-            <h2>Banking App Interface Concept</h2>
+              <img
+                src="./images/dev1.jpg"
+                alt="Screenshots from the phone banking application"
+                width="360"
+                height="300"
+              />
+            </a>
+            <h3 class="title-h3">Banking App Interface Concept</h3>
             <p>App</p>
-            </a>
           </li>
 
           <li>
             <a href="#">
-            <img
-              src="./images/dev2.jpg"
-              alt="the phone scans the qr-code"
-              width="360"
-              height="300"
-            />
-            <h2>Cashless Payment</h2>
+              <img
+                src="./images/dev2.jpg"
+                alt="the phone scans the qr-code"
+                width="360"
+                height="300"
+              />
+            </a>
+            <h3 class="title-h3">Cashless Payment</h3>
             <p>Marketing</p>
-            </a>
           </li>
 
           <li>
             <a href="#">
-            <img src="./images/dev3.jpg"
-            alt="Laptop and phone" 
-            width="360" height="300" 
-            />
-            <h2>Meditaion App</h2>
+              <img src="./images/dev3.jpg" alt="Laptop and phone" width="360" height="300" />
+            </a>
+            <h2 class="title-h3">Meditaion App</h2>
             <p>App</p>
-            </a>
           </li>
 
           <li>
             <a href="#">
-            <img
-              src="./images/dev4.jpg"
-              alt="the phone in the holder and the driver"
-              width="360"
-              height="300"
-            />
-            <h2>Taxi Service</h2>
+              <img
+                src="./images/dev4.jpg"
+                alt="the phone in the holder and the driver"
+                width="360"
+                height="300"
+              />
+            </a>
+            <h3 class="title-h3">Taxi Service</h3>
             <p>Marketing</p>
-            </a>
           </li>
 
           <li>
             <a href="#">
-            <img
-              src="./images/dev5.jpg"
-              alt="Five screenshots from the phone"
-              width="360"
-              height="300"
-            />
-            <h2>Screen Illustrations</h2>
-            <p>Design</p>
+              <img
+                src="./images/dev5.jpg"
+                alt="Five screenshots from the phone"
+                width="360"
+                height="300"
+              />
             </a>
-          </li>
-
-          <li>
-            <a href="#">
-            <img src="./images/dev6.jpg" 
-            alt="girl with headphones " 
-            width="360" height="300" 
-            />
-            <h2>Online Courses</h2>
-            <p>Marketing</p>
-            </a>
-          </li>
-
-          <li>
-            <img
-              src="./images/dev7.jpg"
-              alt="Instagram page on your phone screen "
-              width="360"
-              height="300"
-            />
-            <h2>Instagram Stories Concept</h2>
+            <h3 class="title-h3">Screen Illustrations</h3>
             <p>Design</p>
           </li>
 
           <li>
             <a href="#">
-            <img
-              src="./images/dev8.jpg"
-              alt="a girl holding an eco-bag of vegetables"
-              width="360"
-              height="300"
-            />
-            <h2>Organic Food</h2>
-            <p>Web Site</p>
+              <img src="./images/dev6.jpg" alt="girl with headphones " width="360" height="300" />
             </a>
+            <h3 class="title-h3">Online Courses</h3>
+            <p>Marketing</p>
           </li>
 
           <li>
             <a href="#">
-            <img
-              src="./images/dev9.jpg"
-              alt="The barista pours the cappuccino"
-              width="360"
-              height="300"/>
-            <h2>Fresh Coffee</h2>
-            <p>Web Site</p>
+              <img
+                src="./images/dev7.jpg"
+                alt="Instagram page on your phone screen "
+                width="360"
+                height="300"
+              />
             </a>
+            <h3 class="title-h3">Instagram Stories Concept</h3>
+            <p>Design</p>
+          </li>
+
+          <li>
+            <a href="#">
+              <img
+                src="./images/dev8.jpg"
+                alt="a girl holding an eco-bag of vegetables"
+                width="360"
+                height="300"
+              />
+            </a>
+            <h3 class="title-h3">Organic Food</h3>
+            <p>Web Site</p>
+          </li>
+
+          <li>
+            <a href="#">
+              <img
+                src="./images/dev9.jpg"
+                alt="The barista pours the cappuccino"
+                width="360"
+                height="300"
+              />
+            </a>
+            <h3 class="title-h3">Fresh Coffee</h3>
+            <p>Web Site</p>
           </li>
         </ul>
       </section>
     </main>
     <!--footer-->
-    <footer>
-      <a href="#">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a class="logo link" href="./index.html"> WEB <span class="footer-logo">STUDIO</span> </a>
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital marketing & growth
         solutions.
       </p>
-      <div class="buttons">
-        <button type="button">inline</button>
-        <button type="button">block</button>
-        <button type="button">inline-block</button>
-      </div>
-      <div class="buttons">
-        <button type="button">HTML</button>
-        <button type="button">CSS</button>
-        <button type="button">JavaScript</button>
-      </div>
     </footer>
   </body>
 </html>

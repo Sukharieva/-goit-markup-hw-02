@@ -16,6 +16,7 @@ font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 color:  var(--text-color);
 background-color: var(--site-background-color);
 }
@@ -31,6 +32,7 @@ font-family: "Raleway";
     font-weight: 700;
     font-size: 18px;
     line-height: 1.33;
+    letter-spacing: 0.03em;
     color: var(--text-color);
     text-transform: uppercase;
 }
@@ -39,6 +41,7 @@ font-family: "Raleway";
         font-weight: 700;
         font-size: 18px;
         line-height: 1.33;
+        letter-spacing: 0.03em;
         color: var(--accent-brand);
         text-transform: uppercase;  
 }
@@ -50,6 +53,7 @@ font-family: "Raleway";
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--text-color);
 }
 .link {
@@ -64,6 +68,7 @@ color: var(--accent-brand);;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
      color: var(--text-color);
 }
 /*-------HERO----------*/
@@ -120,6 +125,7 @@ color: var(--hero-bckround-color);
         font-weight: 800;
         font-size: 18px;
         line-height: 1.33px;
+        letter-spacing: 0.04em;
         color: #F4F4FD;
 }
 .footer-text{
