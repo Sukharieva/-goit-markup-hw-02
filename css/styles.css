@@ -7,11 +7,9 @@
     --site-background-color: #ffffff;
     --header-background-color: #ffffff;
     --hero-bckround-color: #15183d;
-    --hero-btn-text-color: #ffffff;
-    --team-background-color: #F4F4FD;
-    --filter-btn-background-color: #F4F4FD;
-    --filter-btn-text-color: #ffffff;
-    --footer-logo: #f5f4fa;}
+    --team-background-color: #f5f4fa;
+    --hero-btn-color: #f5f4fa;
+    --footer-logo: #f5f4fa;
 
 
 body {
@@ -28,8 +26,14 @@ background-color: var(--site-background-color);
 background-color: var(--header-background-color);
 }
 
+<<<<<<< HEAD
 .heder-logo {
     font-family: "Raleway";
+=======
+.heder-logo
+{
+font-family: "Raleway";
+>>>>>>> parent of 10db39c (HW2 the end)
     font-weight: 700;
     font-size: 18px;
     line-height: 1.33;
@@ -65,14 +69,18 @@ background-color: var(--header-background-color);
 
 .link:hover, 
 .link:focus {
+<<<<<<< HEAD
     color: var(--accent-brand);
+=======
+color: var(--accent-brand);;
+>>>>>>> parent of 10db39c (HW2 the end)
 }
 .heder-contacts-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color);
+     color: var(--text-color);
 }
 
 
@@ -93,23 +101,21 @@ background-color: var(--header-background-color);
 .btn {
     cursor: pointer;
     border: none;
-    font-family: inherit;  
+    font-family: inherit;
 }
 
 .hero-btn {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.19;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
-    color: var(--hero-btn-text-color);
+    color: var(--hero-btn-color);
     background-color: var(--accent-brand);
 }
 
 /*----------advantages+team-------- */
 .title-h2 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     color: var(--text-color);
@@ -145,20 +151,6 @@ background-color: var(--header-background-color);
 /*---------Portfolio Page---------*/
 
 /*-------filter buttons-----*/
+.nav-btn {
 
-.filter-btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: var(--accent-brand);
-    background-color: var(--filter-btn-background-color);
-}
-
-.filter-btn:hover,
-.filter-btn:focus {
-    background-color: var(--accent-brand);
-    color: var(--filter-btn-text-color);
 }
