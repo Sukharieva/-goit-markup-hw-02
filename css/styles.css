@@ -18,8 +18,7 @@ body {
 font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+line-height: 1.5; 
 color:  var(--text-color);
 background-color: var(--site-background-color);
 }
@@ -30,22 +29,23 @@ background-color: var(--header-background-color);
 }
 
 .heder-logo {
-font-family: "Raleway";
+    font-family: "Raleway";
     font-weight: 700;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
     color: var(--text-color);
     text-transform: uppercase;
+
 }
 .logo {
     font-family: "Raleway";
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.33;
-        letter-spacing: 0.03em;
-        color: var(--accent-brand);
-        text-transform: uppercase;  
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: var(--accent-brand);
+    text-transform: uppercase;  
 }
 .list {
     list-style: none;
@@ -58,13 +58,14 @@ font-family: "Raleway";
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
+
 .link {
     text-decoration: none;
 }
 
 .link:hover, 
 .link:focus {
-color: var(--accent-brand);
+    color: var(--accent-brand);
 }
 .heder-contacts-link {
     font-weight: 400;
@@ -73,22 +74,28 @@ color: var(--accent-brand);
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
+
+
 /*-------HERO----------*/
+
 .hero {
     background-color: var(--hero-bckround-color);
     color: var(--hero-bckround-color);
 }
+
 .hero-title {
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
     color: #ffffff;
 }
+
 .btn {
     cursor: pointer;
     border: none;
     font-family: inherit;  
 }
+
 .hero-btn {
     font-weight: 700;
     font-size: 16px;
@@ -132,10 +139,10 @@ color: var(--accent-brand);
     color: var(--footer-logo);
 }
 .footer-text{
-color: #E7E9FC;
+    color: #E7E9FC;
 }
 
-/*---------Portfolio---------*/
+/*---------Portfolio Page---------*/
 
 /*-------filter buttons-----*/
 
