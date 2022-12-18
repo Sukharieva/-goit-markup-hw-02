@@ -8,11 +8,12 @@
     --header-background-color: #ffffff;
     --hero-bckround-color: #15183d;
     --team-background-color: #f5f4fa;
-    --progect-btn-bg-color: #f5f4fa;
-}
+    --hero-btn-color: #f5f4fa;
+    --footer-logo: #f5f4fa;
+
 
 body {
-font-family: "Roboto", sans-serif; 
+font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -23,7 +24,7 @@ background-color: var(--site-background-color);
 
 /* ------HEADER-----------*/
 .heder{
-background-color: var(--header-background-color:);
+background-color: var(--header-background-color);
 }
 
 .heder-logo
@@ -73,36 +74,35 @@ color: var(--accent-brand);;
 }
 /*-------HERO----------*/
 .hero {
-background-color: var(--hero-bckround-color);
-color: var(--hero-bckround-color);
+    background-color: var(--hero-bckround-color);
+    color: var(--hero-bckround-color);
 }
 .hero-title {
     font-weight: 600;
-        font-size: 56px;
-        line-height: 1.07;
-        color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #ffffff;
 }
 .btn {
     cursor: pointer;
     border: none;
     font-family: inherit;
-    
 }
 .hero-btn {
-    background-color: var(--accent-brand);
     font-weight: 700;
-        font-size: 16px;
-        line-height: 1.19;
-        letter-spacing: 0.04em;
-        color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.04em;
+    color: var(--hero-btn-color);
+    background-color: var(--accent-brand);
 }
+
 /*----------advantages+team-------- */
 .title-h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     color: var(--text-color);
-
 }
 
 .title-h3 {
@@ -115,20 +115,26 @@ color: var(--hero-bckround-color);
     background-color: var(--team-background-color);
 }
 
-
 /* --------------footer-------------*/
 .footer {
     background: #2E2F42;
 }
 .footer-logo {
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.33px;
-        letter-spacing: 0.04em;
-        color: #F4F4FD;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33px;
+    letter-spacing: 0.04em;
+    color: var(--footer-logo);
 }
 .footer-text{
 color: #E7E9FC;
+}
+
+/*---------Portfolio---------*/
+
+/*-------filter buttons-----*/
+.nav-btn {
+
 }
